@@ -1,0 +1,19 @@
+body{
+    background-color: #3281a8;
+}
+
+.Internship{
+    background-color: #3b924a;
+    margin-top: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+    padding-left: 20px;
+
+    border-radius: 10px;
+}
+
+.InternshipList{
+    background-color: white;
+    height: 75vh;
+    overflow-y: auto;
+}

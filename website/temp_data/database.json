@@ -1,0 +1,37 @@
+{
+    "Internships": [
+        {
+            "Opportunity title": "",
+            "Type": "Internship",
+            "Location": "Maryland",
+            "Deadline": "deadline here",
+            "Grade eligibility": "",
+            "Difficulty": "Medium",
+            "Tags": "(STEM, Business, Medical, etc.)",
+            "Application link": "https://example.com",
+            "Short description": "short description here"
+        },
+        {
+            "Opportunity title": "",
+            "Type": "Internship",
+            "Location": "Maryland",
+            "Deadline": "deadline here",
+            "Grade eligibility": "",
+            "Difficulty": "Medium",
+            "Tags": "(STEM, Business, Medical, etc.)",
+            "Application link": "https://example.com",
+            "Short description": "short description here"
+        },
+        {
+            "Opportunity title": "",
+            "Type": "Internship",
+            "Location": "Maryland",
+            "Deadline": "deadline here",
+            "Grade eligibility": "",
+            "Difficulty": "Medium",
+            "Tags": "(STEM, Business, Medical, etc.)",
+            "Application link": "https://example.com",
+            "Short description": "short description here"
+        }
+    ]
+}
