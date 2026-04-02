@@ -4,17 +4,27 @@
         <link rel="stylesheet" href="website/style.css">
     </head>
     <body>
-        <p>hello world</p>
+        <h1>Internship Directory</h1>
 
-        <div id="internship-list" class="InternshipList">
-            <div class="Internship">
-                <h2>Internship Title</h2>
-                <p>description</p>
-            </div>
+        <div class="filter-controls">
+            <label for="location-filter">Location (contains):</label>
+            <input type="text" id="location-filter" placeholder="e.g. New York" >
+
+            <label for="difficulty-filter">Difficulty:</label>
+            <select id="difficulty-filter">
+                <option value="">Any</option>
+                <option value="easy">Easy</option>
+                <option value="medium">Medium</option>
+                <option value="hard">Hard</option>
+            </select>
+
+            <button id="filter-button" onclick="filterInternships()">Apply Filters</button>
+            <button id="clear-button" onclick="clearFilters()">Clear Filters</button>
         </div>
 
-
-
+        <div id="internship-list" class="InternshipList">
+            <p>Loading internships...</p>
+        </div>
 
         <script src="website/script.js"></script>
     </body>

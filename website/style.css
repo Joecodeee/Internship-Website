@@ -12,8 +12,9 @@ body{
     border-radius: 10px;
 }
 
-.InternshipList{
-    background-color: white;
+#internship-list{
+    background-color: rgb(229, 229, 131);
     height: 75vh;
     overflow-y: auto;
+    scrollbar-color: black rgb(229, 229, 131);
 }
