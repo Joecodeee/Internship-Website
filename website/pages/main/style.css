@@ -1,0 +1,54 @@
+body{
+    background-color: #3281a8;
+}
+
+.Internship{
+    background-color: #3b924a;
+    margin-top: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+    padding-left: 20px;
+
+    border-radius: 10px;
+}
+
+.closing-soon{
+    display: flex;
+    background-color: #ff0000;
+    color: white;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+#internship-list{
+    background-color: rgb(229, 229, 131);
+    height: 75vh;
+    overflow-y: auto;
+    scrollbar-color: black rgb(229, 229, 131);
+}
+
+nav{
+    background-color: #3b924a;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+}
+
+.nav-list{
+    position: sticky;
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+ul li{
+    display: flex;
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+
+ul li a:hover{
+    background-color: #ff0000;
+}

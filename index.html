@@ -1,14 +1,24 @@
 <!DOCTYPE html>
 <html>
+    
     <head>
-        <link rel="stylesheet" href="website/style.css">
+        <title>Internship Directory</title>
+        <link rel="stylesheet" href="website/pages/main/style.css">
     </head>
+
     <body>
+        <nav>
+            <ul class="nav-list">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="website/pages/about/about.html">About</a></li>
+            </ul>
+        </nav>
+
         <h1>Internship Directory</h1>
 
         <div class="filter-controls">
             <label for="location-filter">Location (contains):</label>
-            <input type="text" id="location-filter" placeholder="e.g. New York" >
+            <input type="text" id="location-filter" placeholder="e.g. New York" onkeypress="if(event.key === 'Enter') filterInternships();">
 
             <label for="difficulty-filter">Difficulty:</label>
             <select id="difficulty-filter">
@@ -16,6 +26,14 @@
                 <option value="easy">Easy</option>
                 <option value="medium">Medium</option>
                 <option value="hard">Hard</option>
+            </select>
+
+            <label for="type-filter">Type:</label>
+            <select id="type-filter">
+                <option value="">Any</option>
+                <option value="internship">Internship</option>
+                <option value="program">Program</option>
+                <option value="competition">Competition</option>
             </select>
 
             <button id="filter-button" onclick="filterInternships()">Apply Filters</button>
@@ -26,6 +44,6 @@
             <p>Loading internships...</p>
         </div>
 
-        <script src="website/script.js"></script>
+        <script src="website/pages/main/script.js"></script>
     </body>
 </html>
